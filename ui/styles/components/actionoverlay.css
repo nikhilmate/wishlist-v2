@@ -1,0 +1,116 @@
+
+/* overlay */
+.overlay__create-bucket {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .7);
+    display: none;
+}
+
+.in__relative {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.section__create-bucket {
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid rgba(0, 0, 0, .75);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .25);
+    background-color: #FFF;
+}
+
+.block__cb-header {
+    position: relative;
+    background: #f2f2f2;
+    background: #f1f1f1;
+    background: -webkit-linear-gradient(top, #f7f7f7, #eaeaea);
+    background: linear-gradient(to bottom, #f7f7f7, #eaeaea);
+    border-radius: 4px 4px 0 0;
+    border-bottom: 1px solid #cdcdcd;
+    border-bottom-color: rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset,
+        0 -1px 0 rgba(255, 255, 255, .4) inset;
+    padding: 8px 15px;
+}
+
+.h1__cb-header {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+}
+
+.btn__overlay-close {
+    position: absolute;
+    z-index: 1;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.block__cb-body {
+    padding: 15px 15px 30px;
+}
+
+.form__input-wrap,
+.form__bucket-select-wrap {
+    padding-bottom: 30px;
+    position: relative;
+    border-bottom: 1px solid #EAEDED;
+}
+
+.p__error-bucket {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+}
+
+.p__error-select-bucket {
+    bottom: 15px;
+}
+
+.form__btn-wrap {
+    display: flex;
+    padding-top: 10px;
+}
+
+.btn__cancel-create-bucket {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.btn__submit-create-bucket {
+    width: 110px;
+}
+
+.btn__comn-submit {
+    background: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: rgb(17, 17, 17, 0.8);
+}
+
+.input__create-bucket {
+    width: 260px;
+}
+
+.creating-a-wish .input__create-bucket {
+    width: 100%;
+}
+
+.creating-a-wish .form__input-wrap {
+    padding-bottom: 20px;
+    border: none;
+}
+
+.select__bucket-list {
+    width: 230px;
+    appearance: auto;
+}

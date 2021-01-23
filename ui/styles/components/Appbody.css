@@ -1,0 +1,99 @@
+/* gift icon */
+.cls-1 {
+    fill: #f4536a;
+}
+
+.cls-2 {
+    fill: #ee374b;
+}
+
+.cls-3 {
+    fill: #ffc84d;
+}
+
+.cls-4 {
+    fill: #adb8bc;
+}
+
+.cls-5 {
+    fill: #ffb232;
+}
+/* end */
+
+.section__intro-body {
+    min-height: calc(100% - 96px);
+    background: linear-gradient(0deg, #fffcbd 0%, #fee700 80%);
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block__intro-action {
+    width: 100%;
+    max-width: 1040px;
+}
+
+.in__intro-action {
+    width: 100%;
+    height: 100%;
+}
+
+.h1__intro-action {
+    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #c23321;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.28);
+}
+
+.h2__intro-action {
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #c23321;
+    margin-top: 10px;
+}
+
+.btn__get-started  {
+    max-width: 240px;
+    width: 100%;
+    height: 48px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #ffa800;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #782116;
+    border-style: solid;
+    border-width: 1px;
+    padding: 0 20px;
+    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    /* color: #34373a; */
+    font-size: 18px;
+    margin: 20px auto 0;
+}
+
+.in__intro-steps {
+    display: flex;
+}
+.block__step {
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+}
+.icon__wishlist-main {
+    height: 100px;
+    display: inline-flex;
+    align-items: flex-end;
+}
+.h1__step-desc {
+    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.15px;
+    color: #c23321;
+    margin-top: 15px;
+}

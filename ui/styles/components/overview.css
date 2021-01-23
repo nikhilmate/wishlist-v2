@@ -1,0 +1,153 @@
+/* content */
+.section__app-body {
+    padding: 20px;
+}
+
+.sectionIn__box {
+    padding: 0 20px;
+    background-color: #FFF;
+}
+
+.h1__app-body {
+    color: #131921;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    padding: 10px 0;
+}
+
+.sectionIn__wishlist {
+    border-top: 1px solid #EAEDED;
+    padding: 20px 0;
+    display: flex;
+}
+
+.col__wish-bucket {
+    width: 320px;
+    margin-right: 20px;
+}
+
+.col__wish-list {
+    width: calc(100% - 340px);
+}
+
+.h1__common-heading {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn__comn-wish-block,
+.btn__comn-form {
+    width: 100%;
+    height: 36px;
+    cursor: pointer;
+    background-color: #e7e9ec;
+    border-radius: 3px;
+    border-color: #ADB1B8 #A2A6AC #8D9096;
+    border-style: solid;
+    border-width: 1px;
+    padding: 0 10px;
+    font-weight: 700;
+    color: #595c61;
+    font-size: 16px;
+}
+
+.btn__comn-wish-block.disabled,
+.btn__comn-form.disabled {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.btn__create-wish-bucket {
+    margin-top: 15px;
+}
+
+.btn__create-wish {
+    width: 320px;
+}
+
+.block__wishlist-header {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.h1__comn-no-content {
+    padding: 100px 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #595c61;
+    text-align: center;
+}
+
+.h1__no-wish-bucket {
+    font-size: 18px;
+}
+
+.block__filter-search {
+    display: inline-flex;
+    align-items: center;
+}
+
+.input__search-wishes,
+.input__create-bucket,
+.select__bucket-list {
+    display: inline-flex;
+    width: 240px;
+    height: 36px;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5),
+        0 1px 0 rgba(0, 0, 0, .07) inset;
+    outline: 0;
+    padding: 0 15px;
+    color: #555;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.input__search-wishes::placeholder,
+.input__search-wishes::-moz-placeholder,
+.input__search-wishes::-webkit-input-placeholder {
+    color: #999;
+    font-weight: 400;
+}
+
+.btn__reset-filter {
+    font-size: 16px;
+    line-height: 18px;
+    display: inline-flex;
+    margin-left: 10px;
+    color: blue;
+    text-decoration: underline;
+}
+
+.btn__reset-filter:hover {
+    text-decoration: none;
+}
+
+.input__search-wishes:focus,
+.btn__comn-wish-block:hover,
+.btn__comn-form:hover {
+    border-color: #e77600;
+    box-shadow: 0 0 3px 2px rgba(228, 121, 17, .5);
+}
+
+.block__wish-bucket-list {
+    padding: 20px 0;
+}
+
+.li__wish-bucket {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #242e3a;
+    text-decoration: none;
+}
+
+.li__wish-bucket:hover {
+    text-decoration: underline;
+    color: #e77600;
+}
